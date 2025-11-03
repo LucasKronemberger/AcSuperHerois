@@ -46,7 +46,7 @@ class Resultado : AppCompatActivity() {
 
         btnPesquisar.setOnClickListener {
 
-            val url = "https://www.google.com/search?q=$nomeHeroiParaPesquisa"
+            val url = "https://www.google.com/search?q=$nomeHeroiParaPesquisa + super herói"
             val intent = Intent(Intent.ACTION_VIEW)
             intent.data = Uri.parse(url)
 
