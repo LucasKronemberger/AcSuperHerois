@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    tools:context=".Resultado">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Você se parece com..."
+        android:textSize="24sp"
+        android:layout_marginBottom="16dp"/>
+
+    <ImageView
+        android:id="@+id/imgResultadoHeroi"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginBottom="16dp"
+        tools:src="@drawable/logo_herois"
+        android:contentDescription="Imagem do Herói Correspondente" />
+
+    <TextView
+        android:id="@+id/txtResultadoHeroi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="32dp"
+        tools:text="O Incrível Hulk!"/>
+
+    <Button
+        android:id="@+id/btnPesquisar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saber mais sobre o herói"/>
+
+</LinearLayout>

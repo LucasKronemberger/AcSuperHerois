@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    tools:context=".Perguntas">
+
+    <TextView
+        android:id="@+id/txtPergunta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Qual característica mais te define?"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupOpcoes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioSombrio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sombrio e calculista"
+            android:textSize="18sp"/>
+
+        <RadioButton
+            android:id="@+id/radioBilionario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bilionário e gênio da tecnologia"
+            android:textSize="18sp"/>
+
+        <RadioButton
+            android:id="@+id/radioForca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Força bruta e... grande"
+            android:textSize="18sp"/>
+
+        <RadioButton
+            android:id="@+id/radioInvencivel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Praticamente invencível"
+            android:textSize="18sp"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnVerResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ver Resultado"
+        android:backgroundTint="#8B0000"
+        android:layout_marginTop="32dp"/>
+
+</LinearLayout>
