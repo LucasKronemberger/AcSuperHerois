@@ -35,10 +35,10 @@ O projeto é dividido em três telas principais:
 No app, utilizamos o when para definir o perfil do usuário:
 
 when (idSelecionado) {
-    R.id.radioSombrio -> heroi = "batman"
-    R.id.radioBilionario -> heroi = "homem_de_ferro"
-    R.id.radioForca -> heroi = "hulk"
-    R.id.radioInvencivel -> heroi = "superman"
+    - R.id.radioSombrio -> heroi = "batman"
+    - R.id.radioBilionario -> heroi = "homem_de_ferro"
+    - R.id.radioForca -> heroi = "hulk"
+    - R.id.radioInvencivel -> heroi = "superman"
 }
 ____________________________________________________________________________________________________________________________________________________________
 Desenvolvido por Lucas Kronemberger 🚀⚡
